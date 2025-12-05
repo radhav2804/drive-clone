@@ -10,7 +10,7 @@
     "lib": ["ES2020"],
     "esModuleInterop": true,
     "moduleResolution": "node",
-    "types": ["node", "express"],
+    "typeRoots": ["./node_modules/@types"],
 
     // Other Outputs
     "sourceMap": true,
