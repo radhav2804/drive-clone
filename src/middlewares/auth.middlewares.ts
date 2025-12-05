@@ -5,7 +5,11 @@ export interface AuthRequest extends Request{
     user?:{
         id:number;
         email:string;
-    }
+    };
+    body: any;
+    query: any;
+    params: any;
+    file?: Express.Multer.File;
 }
 
 export const requireAuth = (
